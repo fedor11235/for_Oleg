@@ -12,6 +12,7 @@
       <div div class="button" @click="handkerClick('/error')"><router-link to="/error">методы</router-link></div>
       <div div class="button" @click="handkerClick('/vifor')"><router-link to="/vifor">слоты</router-link></div>
       <div div class="button" @click="handkerClick('/newcompany')"><router-link to="/newcompany">другое</router-link></div>
+      <div div class="button" @click="handkerClick('/compnet')"><router-link to="/compnet">компоненты</router-link></div>
       
  </div>
   <router-view />

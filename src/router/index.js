@@ -8,6 +8,7 @@ import GameTimp from '@/pages/GameTimp'
 import SlideError from '@/pages/SlideError'
 import ViFor from '@/pages/ViFor'
 import NewCompany from '@/pages/NewCompany'
+import compNet from '@/pages/compNet'
 
 const router = createRouter({
     routes: [
@@ -43,6 +44,10 @@ const router = createRouter({
         {
             path: '/newcompany',
             component: NewCompany
+        },
+        {
+            path: '/compnet',
+            component: compNet
         }
         
     ],

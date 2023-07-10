@@ -14,6 +14,7 @@
 </template>
 
 <script>
+
 import SlotVu from '@/components/SlotVu'
 
 export default {
@@ -35,8 +36,8 @@ export default {
 
         ]
     }
-    }
-}
+}}
+
 </script>
 
 <style>
